@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\adc_lcd.o"
+--strict --scatter ".\adc_lcd.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\adc_lcd.map" -o .\adc_lcd.axf

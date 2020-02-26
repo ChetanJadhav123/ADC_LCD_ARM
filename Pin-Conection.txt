@@ -1,0 +1,11 @@
+**************************  ADC_LCD intefacing with LPC2148 *************************
+
+LCD dataline (D0 to D7) connected to Port-1 pins of P1.16 to P1.23 respectively and 
+Rs(Register Select) pin of LCD connected to P1.24 and 
+En(Enable) pin of LCD connected to P1.25
+R/W pin of LCD always ground
+
+ADC channel Connected to Sensors or Resistor Pot. to ADC cahnnels are - (P0.30, P0.29, P0,28, P0.25)
+
+
+********************************** END **************
